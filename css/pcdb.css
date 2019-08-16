@@ -1,0 +1,124 @@
+/* ------- Home Section ---------*/
+div#HKPCDB {
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	background:  no-repeat bottom right linear-gradient(
+	      rgba(0, 0, 0, 0.80), 
+	      rgba(0, 0, 0, 0.80)
+	    ), url(../assets/img/FUXKPC.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+}
+div#HKPCDB .HKPCDB {
+	position: absolute;
+	mix-blend-mode: difference;
+	top: -430px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	font-size: 60px;
+	margin: auto;
+	color: #fff;
+}
+div#HKPCDB .HKPCDB1 {
+	position: absolute;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	mix-blend-mode: difference;
+	top: -260px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	font-size: 16px;
+	margin: auto;
+	color: #fff;
+}
+div#HKPCDB .icon {
+	font-size: 14px;
+	width: 100%;
+	height: 40px;
+}
+
+
+@media (max-width: 768px){
+	div#HKPCDB {
+		width: 100%;
+		height: 60vh;
+		text-align: center;
+		background:  no-repeat bottom right linear-gradient(
+		      rgba(0, 0, 0, 0.80), 
+		      rgba(0, 0, 0, 0.80)
+		    ), url(../assets/img/FUXKPC.jpg);
+		background-size: cover;
+		background-position: center top;
+	}
+	div#HKPCDB .HKPCDB {
+		position: absolute;
+		padding-left: 10px;
+		mix-blend-mode: difference;
+		top: -430px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 60px;
+		font-size: 40px;
+		text-align: left;
+		margin: auto;
+		color: #fff;
+	}
+	div#HKPCDB .HKPCDB1 {
+		position: absolute;
+		padding-left: 10px;
+		font-family: 'Noto Sans TC', sans-serif;
+		font-weight: 100px;
+		mix-blend-mode: difference;
+		top: -300px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 60px;
+		font-size: 16px;
+		text-align: left;
+		margin: auto;
+		color: #fff;
+	}
+	div#HKPCDB .icon {
+		text-align: left;
+		font-size: 14px;
+		margin-left: -10px;
+		width: 100%;
+		height: 40px;
+	}
+}
+
+div#HKPCTOP {
+	background: #000;
+	color: #fff;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+}
+div#HKPCTOP .topicpadding {
+	padding-top: 20px;
+	padding-bottom: 30px;	
+}
+
+div#HKPCTOP .paddingdown {
+	padding-bottom: 20px;
+	padding-left: 0;
+	padding-right: 0;
+}	
+div#HKPCTOP img {
+	padding-bottom: 10px;
+}	
+div#HKPCTOP .imgicon {
+	width: 70%;
+	height: 70%;
+}

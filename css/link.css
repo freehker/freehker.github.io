@@ -1,0 +1,70 @@
+/* ------- Type Section ---------*/
+.type_line {
+	background: #000;
+	text-align: center;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #fff;
+}
+
+/* ------- Link Section ---------*/
+
+div#Link {
+	background: #000;
+}
+
+div#Organization {
+	background: #000;
+}
+
+div#Blogger {
+	background: #000;
+}
+
+.owl-carousel {
+	z-index: -9999;
+}
+
+div#Fxpc-silder .img {
+	width: 100%;
+	height: 60px;
+}
+
+div#Fxpc-silder h1 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+div#Fxpc-silder .icon {
+	font-size: 12px;
+}
+
+div#Fxpc-silder1 .img {
+	width: 100%;
+	height: 60px;
+}
+
+div#Fxpc-silder1 h1 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+div#Fxpc-silder1 .icon {
+	font-size: 12px;
+}
+
+div#Fxpc-silder2 .img {
+	width: 100%;
+	height: 60px;
+}
+
+div#Fxpc-silder2 h1 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+div#Fxpc-silder2 .icon {
+	font-size: 12px;
+}

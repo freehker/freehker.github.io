@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+
+
+/* ------- Home Section ---------*/
+div#blog {
+	width: 100%;
+	height: 70vh;
+	text-align: center;
+	background:  no-repeat linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/blog_new.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center ;
+}
+div#blog .blog {
+	position: absolute;
+	top: -480px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	font-size: 80px;
+	margin: auto;
+	color: #fff;
+	mix-blend-mode: difference;
+}
+div#blog .blog2 {
+	position: absolute;
+	top: -230px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	font-size: 18px;
+	margin: auto;
+	color: #fff;
+}
+div#blog .icon {
+	width: 100%;
+	height: 40px;
+	font-size: 14px;
+}
+
+
+div#statement {
+	background-color: #000;
+}
+div#statement h1{
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	font-size: 52px;
+	color: #FFF;
+}
+div#statement p{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	letter-spacing: 3px;
+	color: #FFF;
+}
+
+@media (max-width: 768px){
+	div#statement h1{
+		text-align: left;
+	}
+}
+
+div#information {
+	background-color: #000;
+}
+
+
+div#information p {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	color: #fff;
+	font-size: 16px;
+}
+div#information h2 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	color: #0066ff;
+	font-size: 30px;
+}
+div#information h3 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	color: #ff00ff;
+	font-size: 30px;
+}
+div#information h4 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	color: #ff9933;
+	font-size: 20px;
+}
+
+div#information h5 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	color: #ff1a1a;
+	font-size: 20px;
+}
+div#information img {
+	width: auto;
+	height: 400px;
+}
+
+
+@media (max-width: 768px){
+	div#information img {
+		width: 40%;
+		height: 40%;
+	}
+	div#blog .icon {
+		width: 100%;
+		height: 40px;
+	}
+	div#blog {
+		width: 100%;
+		height: 70vh;
+		text-align: center;
+		background:  no-repeat linear-gradient(
+		      rgba(0, 0, 0, 0.65), 
+		      rgba(0, 0, 0, 0.65)
+		    ), url(../assets/img/blog_new.jpg);
+		background-size: cover;
+		background-position: center ;
+	}
+}
+

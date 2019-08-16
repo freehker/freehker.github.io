@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+
+body {
+	margin:0;
+	padding:0;
+	font-family:'Ubuntu', sans-serif;
+}
+
+
+
+/* ------- footer Section ---------*/
+footer#footer {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ), url(../assets/img/footerbanner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer h5 {
+	text-align: left;
+	font-size: 20px;
+	color: #fff;
+}
+footer .textleft {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 150px;
+	font-size: 16px;
+	line-height: 25px;
+	width: 430px;
+	text-align: left;
+	color:#d9d9d9;
+}
+footer .nopadding{
+	padding-top: 0;
+	padding-left: 5px;
+	padding-right: 0;
+	padding-bottom:20px;
+}
+footer .nopadding1{
+	padding:0;
+}
+footer .linkp {
+	text-align: left;
+	font-size: 16px;
+	color:#d9d9d9;
+}
+footer .linkp a {
+	text-align: left;
+	color:#d9d9d9;
+}
+footer .end {
+	color: #fff;
+	border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255,255,255,0.31);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 30px 0px 30px 0px;
+}
+
+@media (max-width: 1024px){
+	footer .textleft {
+		width: 100%;
+		text-align: left;
+	}
+}

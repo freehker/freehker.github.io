@@ -1,0 +1,580 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Righteous|Ubuntu:700');
+
+body {
+	margin:0;
+	padding:0;
+	font-family:'Ubuntu', sans-serif;
+}
+
+
+/* ------- Home Section ---------*/
+div#home {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background: url(../assets/img/MAIN_BANNER.jpg) no-repeat bottom right;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:center;
+}
+div#home .hongkongers {
+	position: absolute;
+	top: -200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	font-size: 80px;
+	margin: auto;
+	color: #fff;
+}
+div#home .welcome {
+	position: absolute;
+	top: -10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	font-size: 24px;
+	width: 100%;
+	height: 40px;
+	pointer-events: none;
+	font-family: 'Electrolize', sans-serif;
+	color: #fff;
+}
+
+/* ------- Home Section 
+div#home .icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: -450px;
+	left: 0;
+	margin: auto;
+	width: 100%;
+	height: 40px;
+}---------*/
+
+div#home .icon {
+	position: absolute;
+	top: 610px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.imglayout {
+	width: 60px;
+	height: 60px;
+	margin: 6px;
+}
+
+div#home .imglayout:hover {
+	filter:blur(1px);
+}
+
+div#home .object {
+	animation: MoveUpDown 1.5s linear infinite;
+	width: 60px;
+	height: 60px;
+	left:0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+}
+@keyframes MoveUpDown {
+	0%, 100% {bottom: 0;}
+	50% {bottom: 25px;}
+}
+
+@media (max-width: 768px){
+	div#home {
+		width: 100%;
+		height: 100vh;
+		text-align: left;
+		background: url(../assets/img/MAIN_BANNER.jpg);
+		background-size: cover;
+		background-position:center;
+	}
+	div#home .hongkongers {
+		position: absolute;
+		top: -200px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 60px;
+		padding-left: 13px;
+		font-size: 48px;
+		margin: auto;
+		color: #fff;
+	}
+	div#home .welcome {
+		position: absolute;
+		top: -90px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		padding-left: 16px;
+		font-size: 18px;
+		width: 100%;
+		height: 40px;
+		pointer-events: none;
+		font-family: 'Electrolize', sans-serif;
+		color: #fff;
+	}
+	div#home .icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: -300px;
+		padding-left: 8px;
+		left: 0;
+		margin: auto;
+		width: 100%;
+		height: 40px;
+	}
+}
+
+/* ------- COMRADE Section ---------*/
+div#Yuenlong {
+	width: 100%;
+	height: 500px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	text-align: center;
+	background:  no-repeat bottom right linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ), url(../assets/img/yuenbanner.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:center center;
+}
+div#Yuenlong .comrade {
+	text-align: center;
+}
+div#Yuenlong .paddingtop {
+	padding-top: 100px;
+}
+div#Yuenlong h1 {
+	color: #fff;
+	font-size: 60px;
+	mix-blend-mode: difference;
+}
+div#Yuenlong p {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 150px;
+	font-size: 18px;
+	color: #fff;
+}
+@media (max-width: 768px){
+	div#Yuenlong {
+		width: 100%;
+		height: 100vh;
+		font-family: 'Noto Sans TC', sans-serif;
+		font-weight: 100px;
+		text-align: center;
+		background: no-repeat bottom right linear-gradient(
+	      rgba(0, 0, 0, 0.75), 
+	      rgba(0, 0, 0, 0.75)
+	    ), url(../assets/img/yuenbanner.jpg);
+		background-size: cover;
+		background-position:center center;
+	}
+	div#Yuenlong .comrade {
+		text-align: left;
+	}
+	div#Yuenlong .paddingtop {
+		padding-top: 200px;
+	}
+	div#Yuenlong .iconleft {
+		margin-left: -13px;
+	}
+}
+
+/* ------- Gear Section ---------*/
+div#gear {
+	background-color: #000;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+div#gear .icon {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
+div#gear .icon img{
+	width: 50%;
+	height: 50%;
+}
+div#gear .space {
+	margin-bottom:40px; 
+}
+div#gear h3 {
+	margin-top:-2px; 
+}
+div#gear h2 {
+	font-size: 44px;
+}
+div#gear h4 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 50px;
+	font-size: 14px;
+	line-height: 25px;
+}
+div#gear p {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	margin-top:-8px; 
+	font-size: 18px;
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+	div#gear .icon {
+	    width: 100px;
+	    height: 100px;
+	    position: relative;
+	    display: inline-block;
+	}
+}
+@media (max-width: 991px){
+	div#gear .icon {
+	    width: 150px;
+	    height: 150px;
+	    position: relative;
+	    display: inline-block;
+	}
+		div#gear .icon img{
+		width: 40%;
+		height: 40%;	
+	}
+}
+/* ------- HKPC Section ---------*/
+div#HKPC {
+	width: 100%;
+	height: 630px;
+	text-align: center;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.65), 
+      rgba(0, 0, 0, 0.65)
+    ), url(../assets/img/警暴.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:center center;
+}
+div#HKPC h1 {
+	color:#fff; 
+	font-size: 46px;
+	text-align: left;
+	mix-blend-mode: difference;
+}
+div#HKPC p {
+	color:#fff; 
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	font-size: 16px;
+	text-align: left;
+}
+div#HKPC .mediaicon {
+	text-align: left;
+	margin-left: -13px;
+	background:  no-repeat bottom right linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(0, 0, 0, 0));
+}
+div#HKPC .paddingtop {
+	padding-top: 150px;
+}
+@media (max-width: 768px){
+	div#HKPC {
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background:  no-repeat bottom right linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ), url(../assets/img/警暴.jpg);
+		background-size: cover;
+		background-position:center center;
+	}
+	div#HKPC .paddingtop {
+		padding-top: 70px;
+	}
+}
+
+/* -------featured-video Section---------*/
+section#featured-video {
+	background-color: #000;
+	color: #fff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+/* ------- COMRADE Section ---------*/
+div#COMRADE {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	background:  no-repeat bottom right linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../assets/img/Dead.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:center center;
+}
+div#COMRADE .comrade {
+	text-align: center;
+}
+div#COMRADE .paddingtop {
+	padding-top: 100px;
+}
+div#COMRADE h1 {
+	color: #fff;
+	font-size: 60px;
+	mix-blend-mode: difference;
+}
+div#COMRADE p {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 150px;
+	font-size: 18px;
+	color: #fff;
+}
+@media (max-width: 768px){
+	div#COMRADE {
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background: no-repeat bottom right linear-gradient(
+	      rgba(0, 0, 0, 0.45), 
+	      rgba(0, 0, 0, 0.45)
+	    ), url(../assets/img/Dead.jpg);
+		background-size: cover;
+		background-position:center center;
+	}
+	div#COMRADE .comrade {
+		text-align: left;
+	}
+	div#COMRADE .paddingtop {
+		padding-top: 200px;
+	}
+	div#COMRADE .iconleft {
+		margin-left: -13px;
+	}
+}
+/* ------- Personal Section ---------*/
+div#Personal {
+	background-color: #000;
+	color: #fff;
+	padding-top: 70px;
+}
+
+div#Personal p {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	font-size:14px;
+}
+div#Personal h2 {
+	font-size:26px;
+	margin-top: 12px;
+}
+div#Personal .space {
+	margin-bottom:40px; 
+}
+div#Personal .icon {
+    position: relative;
+    display: inline-block;
+}
+div#Personal .iconsize {
+	width: 120px;
+	height: 120px;
+}
+
+/* ------- footer Section ---------*/
+footer#footer {
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ), url(../assets/img/footerbanner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer h5 {
+	text-align: left;
+	font-size: 20px;
+	color: #fff;
+}
+footer .textleft {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 150px;
+	font-size: 16px;
+	line-height: 25px;
+	width: 430px;
+	text-align: left;
+	color:#d9d9d9;
+}
+footer .nopadding{
+	padding-top: 0;
+	padding-left: 5px;
+	padding-right: 0;
+	padding-bottom:20px;
+}
+footer .nopadding1{
+	padding:0;
+}
+footer .linkp {
+	text-align: left;
+	font-size: 16px;
+	color:#d9d9d9;
+}
+footer .linkp a {
+	text-align: left;
+	color:#d9d9d9;
+}
+footer .end {
+	color: #fff;
+	border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255,255,255,0.31);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 30px 0px 30px 0px;
+}
+
+@media (max-width: 1024px){
+	footer .textleft {
+		width: 100%;
+		text-align: left;
+	}
+}
+/* ------- Media Icon Section ---------*/
+.mediaicon {
+	width: 100%;
+}
+.meline {
+	text-align: center;
+	margin:0;
+	padding: 20px;
+	border-bottom: 2px solid #4c4c4c;
+}
+.mediasty {
+	padding-top:15px;
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 20px;
+	background: #4c4c4c;
+	color: #fff;
+	line-height: 48px;
+	height: 48px;
+	width: 48px;
+}
+.mediasty:hover {
+	background: #fff;
+	color: #000;
+	transition: .5s ease-in-out;
+}
+h6{
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	font-family: 'Electrolize', sans-serif;
+}
+
+
+
+.feature-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(253, 253, 253, 0.15);
+  transition: transform .3s;
+}
+
+.feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
+
+/* Video block
+================================================== */
+
+.featured-video{
+	background: #fff;
+}
+
+.video-block-head h2{
+	font-size: 48px;
+	margin: 0;
+	line-height: normal;
+}
+
+.video-block-head h3{
+	font-size: 24px;
+	line-height: normal;
+	margin: 0;
+}
+.video-block-head h4{
+	font-size: 16px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 100px;
+	line-height: 25px;
+}
+
+.video-block-content{
+	padding: 10px 0;
+}
+
+.video-block-content h3{
+	margin: 0;
+	line-height: normal;
+}
+
+.video-block-content .btn.btn-primary{
+	color: #fff;
+	margin: 5px 0 0 40px;
+	padding: 8px 25px;
+}
+
+.video-block-content .btn.btn-primary:hover{
+	color: #333;
+}
+
+.video-embed {
+	position: relative;
+	padding-top: 56.25%; /* 16:9 */
+	height: 0;
+	background-color: #000000;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.video-embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
